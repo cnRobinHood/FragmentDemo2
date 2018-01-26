@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">findlost</string>
+    <string name="title_bar">失物信息</string>
+
+    <string name="menu1">home</string>
+    <string name="menu2">message</string>
+    <string name="menu3">setting</string>
+    <string name="title_activity_login">findlost</string>
+
+    <string name="title_activity_view_image">ViewImageActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <item name="MessageSend" type="id"></item>
+    <item name="MessageGet" type="id"></item>
+</resources>

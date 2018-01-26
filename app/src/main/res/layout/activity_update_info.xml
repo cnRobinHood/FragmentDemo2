@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11111111"
+    android:orientation="vertical"
+    tools:context="com.xiezh.findlost.activity.UpdateInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:text="头像"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/new_head_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:paddingLeft="50dp"
+            android:text="昵称："
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/new_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="50dp"
+            android:text="昵称："
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:paddingLeft="50dp"
+            android:text="性别："
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/new_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="50dp"
+            android:text="性别："
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:paddingLeft="50dp"
+            android:text="姓名："
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/new_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="50dp"
+            android:text="姓名："
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:paddingLeft="50dp"
+            android:text="q    q："
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/new_qq_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:inputType="number"
+            android:paddingLeft="50dp"
+            android:text="q    q："
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:paddingLeft="5dp"
+            android:text="phoneNum"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/new_phone_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:inputType="number"
+            android:paddingLeft="50dp"
+            android:text="phone Num："
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/make_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:text="确定"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

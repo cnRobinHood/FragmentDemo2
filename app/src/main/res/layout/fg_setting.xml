@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/head_Image"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingLeft="40dp"
+                android:text="username"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/userid"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="40dp"
+                android:text="id"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/st"
+        style="@style/setting_Style"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="退出登陆" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/st"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/clear"
+            style="@style/setting_Style"
+            android:layout_above="@id/st"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="清除缓存" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pushitem"
+        style="@style/setting_Style"
+        android:layout_above="@id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="我发布的失物" />
+
+    <TextView
+        android:id="@+id/changeinfo"
+        style="@style/setting_Style"
+        android:layout_above="@id/pushitem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="修改信息" />
+
+    <View
+        style="@style/lines"
+        android:layout_above="@id/userinfo" />
+
+    <View
+        style="@style/lines"
+        android:layout_below="@id/userinfo" />
+
+    <View
+        style="@style/lines"
+        android:layout_above="@id/st" />
+
+    <View
+        style="@style/lines"
+        android:layout_below="@id/st" />
+
+    <View
+        style="@style/lines"
+        android:layout_above="@id/linearLayout" />
+
+    <View
+        style="@style/lines"
+        android:layout_below="@id/linearLayout" />
+
+    <View
+        style="@style/lines"
+        android:layout_above="@id/pushitem" />
+
+    <View
+        style="@style/lines"
+        android:layout_below="@id/pushitem" />
+
+    <View
+        style="@style/lines"
+        android:layout_above="@id/changeinfo" />
+
+    <View
+        style="@style/lines"
+        android:layout_below="@id/changeinfo" />
+</RelativeLayout>
